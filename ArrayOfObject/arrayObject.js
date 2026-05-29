@@ -1,5 +1,3 @@
-
-
 let students =[
     {
         name : "Yuusuf",
@@ -56,8 +54,39 @@ let employee = [
 ]
 
 for(let emp of employee){
-    console.log(`My name is ${emp.name} The week I work ${emp.hours} hours This Week I need Money Worked ${emp.hours * emp.perHourMoney}`);
-    
+
+    console.log("Name is " + emp.name);
+    console.log("Hours Work " + emp.hours);
+    console.log("His Money " + emp.hours * emp.perHourMoney);
+     
 }
+
+
+const family = [
+    {
+        title : "Father",
+        name : "Mohamed",
+    },
+    {
+        title : "Mother",
+        name : "Faadumo"
+    },
+    {
+        title : "Big Boy",
+        name : "Ahmed"
+    },
+    {
+        title : "Young Girl",
+        name : "Luul"
+    }
+]
+
+for(let f of family){
+    console.log("Title  " + f.title);
+    console.log("Name is " + f.name);
+  
+}
+
+
 
 
