@@ -16,3 +16,33 @@ const mapNames = names.map((e)=>{
 
 console.log(mapNames);
 
+
+let students = [
+    {
+        name : "Ahmed",
+        score : 85
+    },
+    {
+        name : "Fatima",
+        score : 92
+    },
+    {
+        name : "Yuusuf",
+        score : 54
+    },
+    {
+        name : "Axlam",
+        score : 71
+    }
+]
+
+console.log(students);
+
+
+let format = students.map((st)=>{
+    return st.name + " "+ st.score
+})
+
+console.log(format);
+
+
